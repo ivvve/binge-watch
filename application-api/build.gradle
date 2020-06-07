@@ -1,0 +1,9 @@
+dependencies {
+    implementation project(':domain-webdrama')
+
+    implementation 'org.springframework.boot:spring-boot-starter-webflux'
+}
+
+test {
+    useJUnitPlatform()
+}
